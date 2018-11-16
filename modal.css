@@ -1,0 +1,67 @@
+.container{
+	display: flex;
+	margin: 2%;
+	background: grey;
+	border: solid;
+	border-width: 2%;
+	
+}
+body{
+	background-color: lightblue;
+	margin: 2%;	
+}
+h2{
+	color: white;
+	font-size: 2em;	
+	line-height: 20vh;
+}
+.body-content{
+	color: lightgreen;
+	font-size: 1.2em;
+	line-height: 70vh;
+	
+}
+.modalbtn{	
+	font-size: 1.2em;
+	color: green;
+	text-decoration-style: none;
+	margin-left: 2%;
+	cursor: pointer;
+}
+.modalbtn:hover{
+	border: solid;
+	font-size: 1.4em;
+}
+.modal-body{
+	display: none;
+	background-color: #fefefe;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid #888;
+    width: 80%;
+}
+.modal-body span{
+	margin: 2%;
+	font-size: 2em;
+}
+.close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover{
+	color: black;
+	cursor: pointer;
+}
+.class{
+	display: block;
+	background-color: #fefefe;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid #888;
+    width: 80%;
+}
+
+
+
